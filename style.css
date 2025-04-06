@@ -1,0 +1,40 @@
+.container {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+#image {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 250px;
+}
+
+#light-mode-button, #dark-mode-button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid cyan;
+  border-radius: 30px;
+  background-color: transparent;
+  color: cyan;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#light-mode-button:hover, #dark-mode-button:hover {
+  color: black;
+  background-color: cyan;
+  box-shadow: 0 0 10px cyan, 0 0 30px cyan, 0 0 50px cyan;
+}
+
+.dark-mode {
+  background-color: #000;
+}
+
+.light-mode {
+  background-color: #fff;
+}
